@@ -1,6 +1,8 @@
 import React,{useState } from 'react'
 import { Link } from 'react-router-dom'
 import './Navbar.css'
+import Logo from '../../asset/logo.png'
+import Logo2 from '../../asset/logo2.png'
 
 
 function Navbar() {
@@ -11,15 +13,15 @@ function Navbar() {
 
 
     return (
-        <div>
-            <div className="navber-container">
-                <div className="navbar-logo-cont">
+        <div className='container navbar-container'>
+            <div className="navbar ">
+                <div className="navbar-logo-container">
                     <Link to="/" className="navbar-logo">
-                        <img src="" alt="" />
+                        <img src={Logo} alt="" /><span className='navbar-logo-long'><img src={Logo2} alt="" /></span>
                     </Link>
                 </div>
 
-                <div className="nav-links">
+                <div className={`nav-menu ${isMenuopen ? "open" : " "}`}>
                     <ul>
                         <li>
                             <Link to="/" className={`nav-link ${isMenuopen ? "open" : " "}`} onClick={closeMobileMenu}>
