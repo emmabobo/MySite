@@ -1,0 +1,40 @@
+
+.hero-container{
+    background-image:url(../../asset/hero-back-img.jpg) ;
+    background-position: center;
+
+    height: 92vh;
+}
+.hero {
+    height: inherit;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content h1 {
+   
+}
+.hero-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;   
+}
+.hero-img h1{
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+.hero-img img{
+    border-radius: 50%;
+    object-fit: cover;
+}
+.hero-content{
+    padding: 0 auto;
+    text-align: center;
+}
+.hero p {
+    
+}
