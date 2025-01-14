@@ -22,10 +22,7 @@ body{
   margin: 0;
 
 }
-container{
-  padding-left: 20%;
-  padding-right: 20%;
-}
+
 a{
   text-decoration: none;
   color: #f5efef;
@@ -38,4 +35,8 @@ ul{
 h1, h2, h3, h4, h5, h6{
   margin: 0;
   padding: 0;
+}
+@media screen and (min-width: 768px){
+  
+  
 }
