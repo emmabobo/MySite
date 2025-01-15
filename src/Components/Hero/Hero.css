@@ -44,6 +44,18 @@
     line-height: 1.5em;
     text-align: center;
 }
+.skills-list{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+    li p{ display: none;
+        }
+}
+.skills-list  nli{
+    p{
+      
+    }
+}
 .hero p {
     
 }
@@ -54,8 +66,8 @@
     width: 8.5em;
     height: 2.9em;
     border: #3654ff 0.2em solid;
-    border-radius: 11px;
-    text-align: right;
+    border-radius: 1em ;
+    font-size: .8em;
     transition: all 0.6s ease;
 }
 .hero-cta-button:hover {
