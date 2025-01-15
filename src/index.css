@@ -39,21 +39,7 @@ h1, h2, h3, h4, h5, h6{
   margin: 0;
   padding: 0;
 }
-button {
-  background-color: #ffffff00;
-  color: #fff;
-  width: 8.5em;
-  height: 2.9em;
-  border: #3654ff 0.2em solid;
-  border-radius: 11px;
-  text-align: right;
-  transition: all 0.6s ease;
-}
 
-.button:hover {
-  background-color: #3654ff;
-  cursor: pointer;
-}
 @media screen and (min-width: 768px){
   
   

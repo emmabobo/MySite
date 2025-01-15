@@ -28,6 +28,7 @@
     text-align: center;
 }
 .hero-img img{
+    border:2px solid white ;
     border-radius: 50%;
     object-fit: cover;
 }
@@ -35,6 +36,29 @@
     padding: 0 auto;
     text-align: center;
 }
+.hero-content p{
+    font-size: 1.2em;
+    margin-top: 1em;
+    color: #757272;
+    font-weight: 400;
+    line-height: 1.5em;
+    text-align: center;
+}
 .hero p {
     
+}
+.hero-cta-button{
+    margin-top: 2em;
+    background-color: #ffffff00;
+    color: #fff;
+    width: 8.5em;
+    height: 2.9em;
+    border: #3654ff 0.2em solid;
+    border-radius: 11px;
+    text-align: right;
+    transition: all 0.6s ease;
+}
+.hero-cta-button:hover {
+    background-color: #3654ff;
+    cursor: pointer;
 }
